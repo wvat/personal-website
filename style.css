@@ -90,6 +90,10 @@ h2{
     margin: auto;
 }
 
+li{
+    list-style-type: none;
+}
+
 .nav-links{
     font-style: italic;
     font-size: 32;
