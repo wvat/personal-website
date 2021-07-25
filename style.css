@@ -1,0 +1,132 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #F8F3E6;
+    font-family: Roboto;
+}
+
+button{
+   /* position: absolute;
+    width: 121px;
+    height: 58px;
+    left: 918px;
+    top: 31px;   */
+}
+
+button.nav{
+    background: rgba(255, 119, 119, 0.99);
+    border: 2px solid #FF7777;
+    box-sizing: border-box;
+    box-shadow: 3px 3px 0px 2px #A75050;
+    border-radius: 15px;
+}
+
+button.resume-btn{
+    width: 213px;
+    height: 75px;
+    background: #FF0000;
+    border: 2px solid #FF0000;
+    box-sizing: border-box;
+    box-shadow: 3px 3px 0px 2px #AE0000;
+    border-radius: 15px;
+}
+
+button.contact-btn{
+    width: 213px;
+    height: 75px;
+    background: #8000FF;
+    border: 2px solid #8000FF;
+    box-sizing: border-box;
+    box-shadow: 3px 3px 0px 2px #3F007E;
+    border-radius: 15px;
+}
+
+span.btn-text{
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 33px;
+    /* identical to box height */
+
+    color: #FFFFFF;
+
+    /*border: 0.5px solid #FFFFFF;*/
+    box-sizing: border-box;
+    text-shadow: 0px -1px 0px #A0A0A0;
+}
+
+span.emphasize{
+    font-weight: bold;
+    font-style: italic;
+    color: red;
+}
+
+img.portrait{
+    width: 50%;
+    height: auto;
+}
+
+.welcome-card{
+    margin-top: 10em;
+    height: 100vh;
+
+    align-items: center;
+}
+h1{
+    margin: auto;
+}
+h2{
+    margin: auto;
+}
+
+.nav-links{
+    font-style: italic;
+    font-size: 32;
+}
+
+.name{
+    /* Fred Vatnsdal
+    position: absolute;
+    left: 15.69%;
+    right: 13.61%;
+    top: 7.09%;
+    bottom: 88.75%;*/
+
+    font-family: Playfair Display;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 144px;
+    line-height: 192px;
+
+    color: #000000;
+}
+
+.profession{
+    /* Electronics Engineer
+
+    position: absolute;
+    width: 595px;
+    height: 85px;
+    left: 226px;
+    top: 476px;*/
+
+    font-family: Playfair Display;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 85px;
+
+    color: rgba(0, 0, 0, 0.57);
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+a:hover{
+    cursor: pointer;
+    color: red;
+}
