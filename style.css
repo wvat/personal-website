@@ -75,6 +75,14 @@ img.portrait{
 
     align-items: center;
 }
+
+.section-card{
+    margin-top: 5em;
+    height: 75vh;
+
+    align-items: center;
+}
+
 h1{
     margin: auto;
 }
